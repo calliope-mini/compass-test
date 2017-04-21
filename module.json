@@ -1,0 +1,11 @@
+{
+  "name": "calliope-demo",
+  "version": "1.0.3",
+  "description": "Calliope mini Demo",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "microbit": "calliope-mini/microbit#joerg-compass"
+  },
+  "targetDependencies": {},
+  "bin": "./source"
+}
