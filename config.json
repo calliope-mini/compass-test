@@ -1,19 +1,25 @@
 {
-  "microbit-dal": {
-    "bluetooth": {
-      "enabled": 1,
-      "pairing_mode": 1,
-      "private_addressing": 0,
-      "open": 0,
-      "whitelist": 1,
-      "advertising_timeout": 0,
-      "tx_power": 6,
-      "dfu_service": 1,
-      "event_service": 0,
-      "device_info_service": 1,
-      "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM"
-    },
-    "gatt_table_size": "0x700",
-    "debug": 0
-  }
+    "microbit-dal": {
+        "accelerometer": {
+            "bmx055": 1
+        },
+        "bluetooth": {
+            "enabled": 1,
+            "pairing_mode": 1,
+            "private_addressing": 0,
+            "open": 0,
+            "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM",
+            "whitelist": 0,
+            "advertising_timeout": 0,
+            "tx_power": 7,
+            "dfu_service": 0,
+            "event_service": 1,
+            "device_info_service": 1
+        },
+        "gatt_table_size": "0x600",
+        "debug": 1,
+        "heap_debug": 1,
+        "panic_on_heap_full": 1,
+        "reuse_sd": 0
+    }
 }
